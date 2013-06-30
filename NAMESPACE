@@ -1,2 +1,4 @@
 export(check.packages)
 export(lsa)
+export(lsp)
+export(stackify)

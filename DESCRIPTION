@@ -10,3 +10,8 @@ LazyData: true
 Collate:
     'check_packages.R'
     'lsa.R'
+    'lsp.R'
+    'shortcuts.R'
+    'ggplot_functions.R'
+Suggests:
+    gdata
