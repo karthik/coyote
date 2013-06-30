@@ -1,0 +1,8 @@
+Package: coyote
+Title: 
+Description: Useful functions from my .rprofile made available as a package
+Version: 0.1
+Authors@R: 'Karthik Ram <karthik.ram@gmail.com> [aut, cre]'
+Depends: R (>= 3.0.0)
+License: CC0
+LazyData: true
