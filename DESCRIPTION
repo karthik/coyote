@@ -16,3 +16,6 @@ Collate:
     'startup.R'
 Suggests:
     gdata
+    ggplot2
+    plyr
+    knitr
