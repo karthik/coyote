@@ -9,7 +9,7 @@
   with CRAN
 }
 \examples{
-\dontrun{
+{
 check.packages()
 }
 }
