@@ -18,7 +18,6 @@ length(...)
 #' Shortcut for summary
 #'
 #' @param  ... Optional additional arguments
-#' @importFrom base summary
 #' @export
 s <- function(...) { 
 	summary(...)
@@ -27,7 +26,6 @@ s <- function(...) {
 #' Shortcut for names()
 #'
 #' @param  ... Optional additional arguments
-#' @importFrom base names
 #' @export
 n <- function(...)  { 
 	names(...)
@@ -36,7 +34,6 @@ n <- function(...)  {
 #' Shortcut for unique
 #'
 #' @param  ... Optional additional arguments
-#' @importFrom base unique
 #' @export
 u <-function(...)  {  
 	unique(...)

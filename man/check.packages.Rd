@@ -8,9 +8,4 @@
   Check and reports if any of your packages are out of date
   with CRAN
 }
-\examples{
-{
-check.packages()
-}
-}
 

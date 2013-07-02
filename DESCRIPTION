@@ -13,3 +13,6 @@ Collate:
     'lsp.R'
     'shortcuts.R'
     'ggplot_functions.R'
+    'startup.R'
+Suggests:
+    gdata

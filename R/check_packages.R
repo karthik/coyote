@@ -2,9 +2,6 @@
 #'
 #' @export
 #' @importFrom utils old.packages
-#' @examples {
-#' check.packages()
-#'}
 check.packages <- function() {
     if (!is.null(old.packages())) {	
         old_packages <- old.packages()
