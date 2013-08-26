@@ -4,7 +4,7 @@ Description: Useful functions from my .rprofile made available as a package
 Version: 0.1
 Authors@R: 'Karthik Ram <karthik.ram@gmail.com> [aut, cre]'
 Depends:
-    R (>= 3.0.0)
+    R
 License: CC0
 LazyData: true
 Collate:
@@ -14,8 +14,3 @@ Collate:
     'shortcuts.R'
     'ggplot_functions.R'
     'startup.R'
-Suggests:
-    gdata
-    ggplot2
-    plyr
-    knitr
