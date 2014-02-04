@@ -1,11 +1,11 @@
 # Coyote
 
-In an effort to keep my entire R environment reproducible, I'm moving everything from my `.rprofile` (except API keys) into a new package. 
+In an effort to keep my entire R environment reproducible, I'm moving everything from my `.rprofile` (except API keys) into a new package. This package has several functions and settings that make my daily coding in R much easier and faster. 
 
-Install this package in R using with: 
+Install this package in `R` using with: 
 
 ```coffee
-install_github("coyote", "karthik")
+install_github("karthik/coyote")
 ```
 
 ## Notable functions
@@ -48,6 +48,8 @@ You can also use the `pattern` argument to narrow down a function you might be l
 
 ## Shortcuts
 
+I'm lazy, ok? `len` is particularly useful and wish it were R's default call.
+
 * `len` short for `length`
 * `h` short for `head`
 * `n` short for `names`
@@ -70,7 +72,7 @@ will look like:
 
 Package also loads (inside `onLoad()`) libraries that I use all the time like `knitr`, `devtools`, `ggplot2`.
 
-__Additional notes__
+__Additional notes__  
 All these functions are meant to help with development. None of these are ever used in production. I also run everything with `R --vanilla` before shipping code to someone else.
 
 
