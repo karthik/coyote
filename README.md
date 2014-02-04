@@ -54,26 +54,29 @@ I'm lazy, ok? `len` is particularly useful and wish it were R's default call.
 * `h` short for `head`
 * `n` short for `names`
 * `s` short for `summary`
+* `clear` - to clear your console (works on terminal only, not R gui)
 
 
 ## Default `ggplot` themes
 
 I prefer a minimalist theme for my ggplots. The `onLoad()` function inside the package automatically loads `ggplot2`, and set this theme.
 
-So a default plot that looks like:
+So a default plot that would normally look like this:
 
 ![old plot](old_ggplot.png)
 
-will look like:
+will now look like this:
 
 ![new plot](new_ggplot.png)
 
 ## Miscellanea
 
-Package also loads (inside `onLoad()`) libraries that I use all the time like `knitr`, `devtools`, `ggplot2`.
+Package also loads (inside `onLoad()`) libraries that I use all the time like `knitr`, `devtools`, `plyr`, `reshape2`, `ggplot2`.
 
 __Additional notes__  
-All these functions are meant to help with development. None of these are ever used in production. I also run everything with `R --vanilla` before shipping code to someone else.
+All these functions are meant to help with development. I never use any of these in production (i.e. `coyote` will never show up on the Imports or Depends list for any of my packages). I also run everything with `R --vanilla` before shipping code to someone else.
 
+If you have suggestions for more functionality, please free to post suggestions via issues or by sending a pull request.
 
+License: CC0
 
