@@ -1,16 +1,16 @@
 Package: coyote
-Title: 
+Title: A package with useful internal functions I use everyday
 Description: Useful functions from my .rprofile made available as a package
 Version: 0.1
 Authors@R: 'Karthik Ram <karthik.ram@gmail.com> [aut, cre]'
 Depends:
-    R
+    R (>= 3.0.0)
 License: CC0
 LazyData: true
-Collate:
-    'check_packages.R'
-    'lsa.R'
-    'lsp.R'
-    'shortcuts.R'
-    'ggplot_functions.R'
-    'startup.R'
+Suggests:
+    testthat,
+    knitr,
+    ggplot2,
+    reshape2,
+    devtools,
+    plyr

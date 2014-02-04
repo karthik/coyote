@@ -2,12 +2,12 @@
 \alias{h}
 \title{Shortcut for head}
 \usage{
-  h(...)
+h(...)
 }
 \arguments{
   \item{...}{Optional additional arguments}
 }
 \description{
-  Shortcut for head
+Shortcut for head
 }
 

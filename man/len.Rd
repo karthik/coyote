@@ -2,12 +2,12 @@
 \alias{len}
 \title{Shortcut for length}
 \usage{
-  len(...)
+len(...)
 }
 \arguments{
   \item{...}{Optional additional arguments}
 }
 \description{
-  Shortcut for length
+Shortcut for length
 }
 

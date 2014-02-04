@@ -2,7 +2,7 @@
 \alias{lsp}
 \title{List functions inside any package}
 \usage{
-  lsp(package, pattern, all.names = FALSE)
+lsp(package, pattern, all.names = FALSE)
 }
 \arguments{
   \item{package}{Name of a loaded package}
@@ -12,7 +12,7 @@
   \item{pattern}{Filter function search by package}
 }
 \description{
-  List functions inside any package
+List functions inside any package
 }
 \examples{
 \dontrun{

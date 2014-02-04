@@ -2,12 +2,12 @@
 \alias{n}
 \title{Shortcut for names()}
 \usage{
-  n(...)
+n(...)
 }
 \arguments{
   \item{...}{Optional additional arguments}
 }
 \description{
-  Shortcut for names()
+Shortcut for names()
 }
 

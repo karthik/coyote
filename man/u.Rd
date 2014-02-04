@@ -2,12 +2,12 @@
 \alias{u}
 \title{Shortcut for unique}
 \usage{
-  u(...)
+u(...)
 }
 \arguments{
   \item{...}{Optional additional arguments}
 }
 \description{
-  Shortcut for unique
+Shortcut for unique
 }
 

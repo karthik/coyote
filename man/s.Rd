@@ -2,12 +2,12 @@
 \alias{s}
 \title{Shortcut for summary}
 \usage{
-  s(...)
+s(...)
 }
 \arguments{
   \item{...}{Optional additional arguments}
 }
 \description{
-  Shortcut for summary
+Shortcut for summary
 }
 
