@@ -38,3 +38,13 @@ n <- function(...)  {
 u <-function(...)  {  
 	unique(...)
 }
+
+
+#'Clears the screeen
+#'
+#' @param ... other argumetns
+#' @export
+clear <- function(...) {
+	system("clear")
+	invisible()
+}
