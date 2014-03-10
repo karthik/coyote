@@ -42,9 +42,19 @@ u <-function(...)  {
 
 #'Clears the screeen
 #'
-#' @param ... other argumetns
+#' @param ... other arguments
 #' @export
 clear <- function(...) {
 	system("clear")
 	invisible()
 }
+
+#'Clears the screeen
+#'
+#' @param ... other arguments
+#' @export
+cl <- function(...) {
+	system("clear")
+	invisible()
+}
+

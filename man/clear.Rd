@@ -5,7 +5,7 @@
 clear(...)
 }
 \arguments{
-  \item{...}{other argumetns}
+  \item{...}{other arguments}
 }
 \description{
 Clears the screeen
