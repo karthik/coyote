@@ -71,7 +71,7 @@ will now look like this:
 
 ## Miscellanea
 
-Package also loads (inside `onLoad()`) libraries that I use all the time like `knitr`, `devtools`, `plyr`, `reshape2`, `ggplot2`.
+Package also loads (inside `onLoad()`) libraries that I use all the time like `knitr`, `devtools`, `ggplot2`.
 
 __Additional notes__  
 All these functions are meant to help with development. I never use any of these in production (i.e. `coyote` will never show up on the Imports or Depends list for any of my packages). I also run everything with `R --vanilla` before shipping code to someone else.
