@@ -1,7 +1,7 @@
 Package: coyote
-Title: A package with useful internal functions I use everyday
+Title: A Package With Useful Internal Functions I Use Every Day
 Description: Useful functions from my .rprofile made available as a package
-Version: 0.2
+Version: 0.3
 Authors@R: 'Karthik Ram <karthik.ram@gmail.com> [aut, cre]'
 Depends:
     R (>= 3.0.0)
